@@ -28,4 +28,4 @@ ___
 * RAM - Minimum 4 GB
 * PROCESSOR - Minimum i5 or above 
 
-#### Follow the installation guide before coming to the workshop ![Installation Guide](intallationGuide.md) 
+#### Follow the installation guide before coming to the workshop ![Installation Guide](Python_intallation_Guide.md) 
