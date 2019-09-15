@@ -6,10 +6,10 @@
 #### If you do not have Python 3.7 install it and *Add to the Path*
 
 To install python click on the link:
-* ![Linux](https://www.python.org/downloads/release/python-374/)
-* ![Windows](https://www.python.org/downloads/release/python-374/)
-* ![Mac](https://www.python.org/downloads/release/python-374/)
+* [Linux](https://www.python.org/downloads/release/python-374/)
+* [Windows](https://www.python.org/downloads/release/python-374/)
+* [Mac](https://www.python.org/downloads/release/python-374/)
 
 You also need a Text Editor like `sublime Text`,`PyCharm`,`spyder` etc.
-* ![ install sublime Text](https://www.sublimetext.com/3)
+* [ install sublime Text](https://www.sublimetext.com/3)
 
